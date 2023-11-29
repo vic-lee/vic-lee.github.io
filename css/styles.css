@@ -1,3 +1,121 @@
-body{
-    background-color: red;
+
+header{
+    text-align: center;
+    padding: 10px;   
 }
+
+#game{
+    font-family: 'Domine', serif;
+    font-size: 40px;
+    font-weight: bolder;
+    color: cornflowerblue;
+    padding:5px;
+}
+
+#name{
+    font-family: 'Domine', serif;
+    font-size: 50px;
+    font-weight: bolder;
+    color:#ff0000;
+}
+
+#tag{
+    font-family: 'Domine', serif;
+    font-size: 23px;
+}
+
+#ver{
+    font-family: 'Domine', serif;
+    font-size: 28px; 
+    color: purple 
+}
+
+#container{
+    margin-top: 25px;
+    padding: 20px;
+}
+
+img{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.category{
+    text-align: center;
+    font-family: 'Domine', serif;
+}
+
+.row{
+    padding: 10px;
+    margin-bottom: 20px;     
+}
+
+ .col-sm-12, .col-md-6{
+    padding: 20px;
+} 
+
+
+#blue:hover{
+    border: 1px solid lightskyblue;
+}
+
+#green:hover{
+    border: 1px solid lightgreen;
+}
+
+#yellow:hover{
+    border: 1px solid yellow;
+}
+
+#red:hover{
+    border: 1px solid red;
+}
+
+
+#action1, #action2, #action3, #action4{
+    cursor: pointer;
+    text-align: center;
+}
+
+.feed{
+    font-family: 'Domine', serif;
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+    background-color: black; 
+    color: white;
+    margin-left: 10px;
+}
+
+#trainScore, #demoScore, #olonaScore, #outcomesScore{
+    font-family: 'Domine', serif;
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+    /* background-color: black; 
+    color: white; */
+}
+
+#descrip1, #descrip2, #descrip3, #descrip4{
+    visibility: hidden;
+    font-family: 'Domine', serif;
+    padding: 10px;
+    font-size: 20px;
+}
+
+
+#disclosure{
+    font-family: 'Domine', serif;
+    font-size: 20px;
+    border: 3px solid #568203;
+    padding: 15px;
+    text-align: center;
+    margin: auto;
+    width: 40%;
+    background-color: yellow;
+    color: #568203;
+
+}
+
